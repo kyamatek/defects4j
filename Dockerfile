@@ -69,6 +69,4 @@ RUN apt-get install -y sudo && \
 
 WORKDIR ${HOME} 
 
-COPY run.sh ./jprophet
-
 #USER ${USER}

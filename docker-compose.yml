@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  d4j:
+    image: "kyamate/d4j"
+    container_name: "yamate-d4j"
+    volumes:
+      - ./jprophet/:/home/ubuntu/jprophet
